@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Autofac" Version="6.3.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Rez\Rez.csproj" />
+		<ProjectReference Include="..\RestApi\RestApi.csproj" />
+		<ProjectReference Include="..\Application\Application.csproj" />
+		<ProjectReference Include="..\Autofac.Framework\Autofac.Framework.csproj" />
+		<ProjectReference Include="..\Application.Contract\Application.Contract.csproj" />
+	</ItemGroup>
+
+</Project>
