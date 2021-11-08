@@ -3,7 +3,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace HostService
+namespace Server
 {
 	public class Startup : object
 	{

@@ -2,7 +2,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Hosting;
 using Autofac.Extensions.DependencyInjection;
 
-namespace HostService
+namespace Server
 {
 	public class Program : object
 	{
